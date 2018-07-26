@@ -597,6 +597,9 @@ ul.link-list li{
 	list-style:none;
 }
 
+footer{
+	background:steelblue;
+}
 footer ul.link-list li a {
 	color:#000;
 }
@@ -607,7 +610,7 @@ footer ul.link-list li a:hover {
 footer .widget ul li a {
 	color:#000;
 }
-
+steelblue
 
 
 
