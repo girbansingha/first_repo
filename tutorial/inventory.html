@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Arth Tutorial</title>
+
+         <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="css/style5.css">
+    </head>
+    <body>
+
+
+
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>Tutorial Content</h3>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <p>Chapter 3-Inventory</p>
+                    <li>
+                     
+                        <a href="#itemSubmenu" data-toggle="collapse" aria-expanded="false">Inventory Item</a>
+                        <ul class="collapse list-unstyled" id="itemSubmenu">
+                            <li><a href="#">Item Dashboard</a></li>
+                            <li><a href="#">Create Item</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                     
+                        <a href="#groupSubmenu" data-toggle="collapse" aria-expanded="false">Inventory Group</a>
+                        <ul class="collapse list-unstyled" id="groupSubmenu">
+                            <li><a href="#">Group Dashboard</a></li>
+                            <li><a href="#">Create Group</a></li>
+                            <li><a href="#">Delete Group</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <ul class="list-unstyled CTAs">
+                    <li><a href="#" class="download">Download Demo</a></li>
+                    <li><a href="#" class="article">Back to Home</a></li>
+                </ul>
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                
+                                <li><a href="#">Previous</a></li>
+                                <li><a href="#">Next</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <h2>Inventory</h2>
+                <p>Arth has powerful inventory managment system.Using Arth One can managed their inventory systematically.</p>
+                <h3 id="graphical">Inventory Item</h3>
+                <p>
+                    In Inventory Item one can view and mange their stock.
+                </p>
+                <div class="row">
+                   
+                    <div class="col-md-6">
+                        <h4>1. Item Dashboard</h4>
+                        <p>In item dashboard one can view their item summary.It contains Item Name, <a href="#" style="color: blue;">Group</a>, <a href="#">Product Id</a>, <a href="#">Re-order Point</a>,Tax, <a href="#">HSN Code</a>.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image/grap_dashborad.png" class="img-responsive">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Stock History</h5>
+                        <p>In this software you can view stock history items. To view the stock history click the stock history button in the view column of item dashboard where you can find <a>Batch No</a>, Number of stocks, salling price, purchase price and expiary date</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image/grap_dashborad.png" class="img-responsive">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Item Transaction History</h5>
+                        <p>To view item transaction history click transaction history button where it display the all the transaction history made against that item</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image/grap_dashborad.png" class="img-responsive">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>How To Edit Item Deatils?</h5>
+                        <p>To edit Item details click "Update Item" button. As soon as the button is clicked a update panel will appear in fornt of item dashboard where you can update the item details.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image/grap_dashborad.png" class="img-responsive">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>How To Delete Item?</h5>
+                        <p>To delete item you just click the 'Delete Item' button and by conforming delete action you can delete items. But make sure that you don't have any item stock in your inventory because by after delet an item you delete all the stock you have in your inventory</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>2. Create Item</h4>
+                        <p>To create an item in inventory click the 'Create Item' button. An item creation panel will appear infornt of item dashboard where item details can be enter. By clicking 'SAVE' button you can save the item in your inventory. You can view the new item in your dashboard</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image/grap_dashborad.png" class="img-responsive">
+                    </div>
+                </div>
+                    
+                <div class="line"></div>
+                <h3 id="recent">Inventory Group</h3>
+                <p>
+                   "Inventory Group" where you can store your inventory systematically i.e. you can specify the location of your stock by storing your inventory stock in a group.
+                </p>
+                <div class="row">
+                     
+                    <div class="col-md-6">
+                        <h4>1. Group Dashboard</h4>
+                        <p>Group dashboard display all the groups and subgroups of your inventory.By default group dashboard have two groups <a href="#">Store</a> and <a href="#">Godown</a>.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image/grap_dashborad.png" class="img-responsive">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>2. Cretae Group</h4>
+                        <p>It is very easy to create a group. Click on the "Create New" button and fill up the form to create group. To create a <a href="#">primary group</a> you should select under as uncategorized and to create <a href="#">Secondary Group</a> or sub-group select the main group under which the sub-group you want to create</p> 
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image/grap_dashborad.png" class="img-responsive">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>3. Delete Group</h4>
+                        <p>To delete a group you just right-click on the group that you want to delete and click delete to delete the specific group</p> 
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image/grap_dashborad.png" class="img-responsive">
+                    </div>
+                </div>
+                    
+                
+            </div>
+        </div>
+
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+         <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                     $(this).toggleClass('active');
+                 });
+             });
+         </script>
+    </body>
+</html>
